@@ -16,7 +16,7 @@
 
 ## アイコン・画像
 
-アイコンはfontawsome、画像はPixabay、Canvaを使用しました。
+アイコンはFont Awesome、画像はPixabay、Canvaを使用しました。
 
 
 ## 完成までの過程
