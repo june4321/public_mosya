@@ -2,7 +2,7 @@
 
 <ul>
  <li>サイトの概要 airbnbのwebページ模写をされた方のページをお手本に模写をしました。 https://portfolio.igarashi-web.com/</li>
- <li>プレビューURL </li>
+ <li>プレビューURL https://june4321.github.io/public_mosya/.</li>
 </ul>
 
 
