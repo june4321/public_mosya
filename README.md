@@ -2,7 +2,7 @@
 
 <ul>
  <li>サイトの概要 airbnbのwebページ模写をされた方のページをお手本に模写をしました。 https://portfolio.igarashi-web.com/</li>
- <li>プレビューURL 後ほど貼り付け</li>
+ <li>プレビューURL  https://june4321.github.io/public_mosya/</li>
 </ul>
 
 
@@ -22,8 +22,19 @@
 ## 完成までの過程
 
 <ol>
- <li>progateのHTML&CSSの中級まで学習後、PC版のマークアップに着手しました</li>
- <li>PC版デザインが完成した後、progateのHTML&CSSの上級とflexboxについて学習しました</li>
- <li>レスポンシブデザインのマークアップに着手しました</li>
+ <li>ProgateのHTML&CSSの中級まで学習</li>
+ <li>PC版の実装</li>
+ <li>PC版デザイン完成後、ProgateのHTML&CSSの上級とflexboxについて学習</li>
+ <li>レスポンシブデザインのコーディングに着手</li>
  <li>完成！！！</li>
 </ol>  
+
+
+
+
+### TO DO
+JavaScript学習後
+<ul>
+ <li>PC版…モーダルを実装</li>
+ <li>スマホ版・タブレット版…メニュー画面を実装</li>
+</ul>
