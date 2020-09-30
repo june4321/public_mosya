@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/stylesheet.css">
         <script src="https://kit.fontawesome.com/6b9b703c98.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     </head>
     <body>
         <header>
@@ -25,13 +26,23 @@
                 <div class="header-right">
                         <div><p>予想月収</p></div>
                         <div>
-                            <a href="#"><i class="far fa-question-circle"></i></a>
+                            <a href="#"><i class="far fa-question-circle op-modal"></i></a>
                         </div>
                         <div><p class="price">&yen; 190,318</p></div>
                         <div><a class="header-right-hajime" href="#">はじめる</a></div>
                 </div>
             </div>
         </header>
+        <!--s-modal-->
+        <div class="modal-container" id="modal">
+            <div class="modal-wrapper">
+                <div class="modal">
+                    <i class="far fa-times-circle" id="cl-modal"></i>
+                    <p class="modal-text">本収入予想は、予測される1泊の価格で毎月15泊が実施された場合を想定して算定されたものです。予測される1泊の価格は、所在地、リスティングの種類及びゲストの定員が類似するリスティングの平均価格を基礎に算定されています。お客様が実際に得る収入は、お客様の決定した価格、お客様のリスティングの種類及び所在地、リスティングの実際の稼働率、シーズン、需要、現地の法令並びにその他の要因によって変動します。</p>
+                </div>
+            </div>
+        </div>
+        <!--f-modal-->
         <main>
             <div class="top-container container">
                 <div class="top-wrapper">
@@ -372,6 +383,7 @@
                 </div>      
             </div>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
 
