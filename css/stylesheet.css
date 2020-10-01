@@ -132,11 +132,8 @@ header {
     header {
         height: auto;
         background-color: transparent;
-        position: fixed;
-        top: 30px;
-        left: 20px;
-        z-index: 200;
     }
+
     .header-container {
         width: 90%;
     }
@@ -149,11 +146,8 @@ header {
     header {
         height: auto;
         background-color: transparent;
-        position: fixed;
-        top: 30px;
-        left: 20px;
-        z-index: 200;
     }
+
     .header-container {
         width: 90%;
     }
@@ -295,7 +289,7 @@ header {
     }
 
     .slide-menu {
-        margin: 120px 40px;
+        margin: 10px 40px;
     }
 
     .slide-menu a {
@@ -309,6 +303,12 @@ header {
         border-bottom: 1px solid #dcdcdc;
         padding: 40px;
         margin-bottom: 10px;
+    }
+    .menu-btn {
+        margin: 50px 0 20px 40px;
+    }
+    .btn-color {
+        color: #008489;
     }
 /*Fスマホ用/タブレット用*/
 
