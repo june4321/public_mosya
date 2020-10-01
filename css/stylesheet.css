@@ -287,24 +287,49 @@ header {
 }
 
 .modal {
-    width: 530px;
+    width: 525px;
     height: 240px;
     background-color: white;
-    margin: 25% auto;
+    margin: 280px auto;
 }
 
 .fa-times-circle {
-    padding: 25px 0 10px 35px;
+    padding: 20px 0 8px 30px;
     font-size: 36px;
     color: #767676;
 }
 
 .modal-text {
-    padding: 0 35px;
+    padding: 0 30px;
     font-size: 15px;
     line-height: 20px;
     color: #464646;
 }
+
+/*Sスマホ用*/
+@media(max-width: 550px) and (min-width: 375px) {
+    .modal {
+        width: 350px;
+        height: 250px;
+        background-color: white;
+        margin: 200px auto;
+    }
+    
+    .fa-times-circle {
+        padding: 10px 0 5px 15px;
+        font-size: 28px;
+        color: #767676;
+    }
+    
+    .modal-text {
+        padding: 0 15px;
+        font-size: 15px;
+        line-height: 18px;
+        color: #464646;
+    }
+        
+}
+/*Fスマホ用*/
 
 /*modalここまで*/
 
