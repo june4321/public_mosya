@@ -132,6 +132,7 @@ header {
     header {
         height: auto;
         background-color: transparent;
+        z-index: 200;
     }
 
     .header-container {
@@ -146,6 +147,7 @@ header {
     header {
         height: auto;
         background-color: transparent;
+        z-index: 200;
     }
 
     .header-container {
@@ -289,7 +291,7 @@ header {
     }
 
     .slide-menu {
-        margin: 10px 40px;
+        margin: 50px 40px;
     }
 
     .slide-menu a {
@@ -339,6 +341,10 @@ header {
     padding: 20px 0 8px 30px;
     font-size: 36px;
     color: #767676;
+}
+
+.fa-times-circle:hover {
+    cursor: pointer;
 }
 
 .modal-text {
