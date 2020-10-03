@@ -1,4 +1,5 @@
 $(function(){
+    
     $('.op-modal').click(function(){
         $('#modal').show();
     });
@@ -21,11 +22,7 @@ $(function(){
             $(this).removeClass('fa-angle-up');
             $(this).addClass('fa-angle-down');
             $('#slide-menu').slideUp();
-            if($(window).width() >= 900){
-                $('.icon-color').css('color','#008b8b');
-            }else{
-                $('.icon-color').css('color','white');
-            }
+            $('.icon-color').css('color','white');
         }else{
             $(this).addClass('open');
             $(this).removeClass('fa-angle-down');
@@ -33,7 +30,13 @@ $(function(){
             $('#slide-menu').slideDown();
             $('.icon-color').css('color','#008b8b');
             }
-        
+
+        if($(window).width() >= 900){
+            $('.icon-color').css('color','#008b8b');
+        }else{
+            
+        }        
+        //この条件式ではスマホ版の検証画面閉じたときにPC版のアイコンが白変してしまう
     });
 
 });
